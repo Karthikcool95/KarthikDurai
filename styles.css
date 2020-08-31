@@ -68,9 +68,13 @@ margin-top: 300px;
 }
 
 .top {
-  background-color: #e0ece4;
+  background-color: white;
   position: relative;
   padding-top: 200px;
+}
+
+.hr1{
+margin-top: 80px;
 }
 .bottom
 {

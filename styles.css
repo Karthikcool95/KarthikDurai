@@ -5,6 +5,30 @@ body {
   color:#40514E;
 }
 
+.headtop {
+    position: fixed;
+    /* top: 3px; */
+    background-color: black;
+    opacity: 90%;
+    display: block;
+    width: 100%;
+    margin: auto;
+    /* border: 2px solid green; */
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a {
+    font-family: 'Open Sans', sans-serif;
+    color: #11999E;
+    text-decoration: none;
+    padding: 34px 23px;
+}
 
 h1 {
   margin: 50px auto 0 auto;
@@ -68,9 +92,12 @@ margin-top: 150px;
 }
 
 .top {
-  background-color: white;
-  position: relative;
-  padding-top: 200px;
+      background-color: white;
+    /* position: relative; */
+    padding-top: 200px;
+    background: url(https://cdn.pixabay.com/photo/2017/03/08/15/01/colorado-2126991_1280.jpg);
+    background-repeat: round;
+    height: 650px;
 }
 
 

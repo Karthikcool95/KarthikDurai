@@ -292,8 +292,9 @@ width: fit-content;
 @media only screen and (max-width: 1262px) {
   .youtube {
 
-    display: block;
-   
+     display: grid;
+    grid-gap: 40px 100px;
+    grid-template-columns: auto;
     padding: 20px;
   }
 }
